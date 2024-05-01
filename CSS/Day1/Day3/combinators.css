@@ -1,0 +1,76 @@
+#grandfather{
+    background-color: blueviolet;
+    width: 100%;
+    height:600px;
+}
+#father,#babai{
+    background-color: chartreuse;
+    width: 40%;
+    height: 400px;
+    float:left;
+}
+#babai{
+    background-color: palevioletred;
+}
+#sibling1,#you,#sibling2,#cousin1,#cousin2,#cousin3{
+    background-color: crimson;
+    width:30%;
+    height:250px;
+    float: left;
+}
+#sibling1{
+    background-color: cornflowerblue;
+}
+#sibling2{
+    background-color: rgb(2, 20, 21);
+}
+#cousin1{
+    background-color: orange;
+}
+#cousin2{
+    background-color: peru;
+}
+#cousin3{
+    background-color: blue;
+}
+
+/* adjacent sibling selector */
+/* #father+#babai{
+    background-color: white;
+}
+#sibling1+#you{
+    background-color: wheat;
+}
+#you+#sibling2{
+    background-color: cyan;
+}
+#cousin1+#cousin2{
+    background-color: royalblue;
+}
+#cousin2+#cousin3{
+    background-color: coral;
+} */
+
+
+/* /general sibling selector */
+#father~#babai{
+    background-color: chocolate;
+}
+#sibling1~#you{
+    background-color: blue;
+}
+#sibling1~#sibling2{
+    background-color: darkorange;
+}
+#you~#sibling2{
+    background-color: rgb(255, 0, 111);
+}
+#cousin1~#cousin2{
+    background-color: lavender;
+}
+#cousin1~#cousin3{
+    background-color: lightcoral;
+}
+#cousin2~#cousin3{
+    background-color: mediumorchid;
+}

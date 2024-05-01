@@ -1,0 +1,25 @@
+h1{
+    background-color: coral;
+    font-size: 50px;
+    width: 50%;
+}
+h1[id]{
+    background-color: lawngreen;
+    color:blue;
+}
+h1[class]{
+    background-color: skyblue;
+    color: black;
+}
+input{
+    background-color: lavender;
+}
+input[type]{
+    background-color: blueviolet;
+}
+input[placeholder]{
+    background-color: aqua;
+}
+p[id]{
+    background-color: blueviolet;
+}
